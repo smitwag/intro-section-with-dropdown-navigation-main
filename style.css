@@ -120,6 +120,7 @@ body {
 }
 
 .hero-content {
+  width: 100%;
   position: relative;
 }
 
