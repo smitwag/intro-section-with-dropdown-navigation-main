@@ -115,20 +115,21 @@ body {
 }
 
 .hero {
-  gap: 7rem;
+  justify-content: space-between;
   padding: 2rem 0;
 }
 
 .hero-content {
-  width: 100%;
+  width: 50%;
   position: relative;
 }
 
 .hero-content h1 {
   font-size: 78px;
   font-weight: 700;
-  margin-top: 7rem;
+  margin-top: 6rem;
   margin-bottom: 3rem;
+  padding-right: 2rem;
 }
 
 .hero-content p {
@@ -144,7 +145,7 @@ body {
 }
 
 .hero-img {
-  width: 43%;
+  width: 40%;
   align-self: center;
 }
 
@@ -195,10 +196,14 @@ body {
     display: block;
     order: -1;
   }
+  .hero-content {
+    width: 100%;
+  }
   .hero-content h1 {
-    font-size: 62px;
+    font-size: 48px;
     margin-top: 3rem;
     text-align: center;
+    padding-right: 0;
   }
   .hero-content p {
     padding-right: 0;
